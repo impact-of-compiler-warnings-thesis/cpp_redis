@@ -21,7 +21,7 @@ jobs:
       - name: Install deps 
         run: |
           sudo apt update
-          sudo apt install ninja-build
+          sudo apt install ninja-build libopenblas-pthread-dev      
       - name: Run CMake
         run: |
           mkdir build 
